@@ -2,6 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+http://localhost:3000 // npm run dev
+http://localhost:5555 // npx prisma studio
+
 First, run the development server:
 
 ```bash
