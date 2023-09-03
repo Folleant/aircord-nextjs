@@ -78,10 +78,10 @@ export const InitialModal = () => {
             <DialogContent className='bg-white text-black p-0 overflow-hidden'>
                 <DialogHeader className='pt-8 px-6'>
                     <DialogTitle className='text-2x1 text-center font-bold'>
-                        Customize your server
+                        Создание своего сервера{/* Customize your server */}
                     </DialogTitle>
                     <DialogDescription className='text-center text-zinc-500'>
-                        Give your server a personality with a name and an image. You can always change it later.
+                        Создай свой персональный сервер, с названием и изображением, которые ты сможеж изменить после{/* Give your server a personality with a name and an image. You can always change it later. */}
                     </DialogDescription>
                 </DialogHeader>
 
@@ -114,13 +114,14 @@ export const InitialModal = () => {
                                         <FormLabel
                                             className='uppercase text-xs font-bold text-zinc-500 dark:text-secondary/70'
                                         >
-                                            Server name
+                                            Имя сервера{/* Server name */}
                                         </FormLabel>
                                         <FormControl>
                                             <Input
                                                 disabled={isLoading}
                                                 className='bg-zinc-300/50 border-0 focus-visible:ring-0 text-black focus-visible:ring-offset-0'
-                                                placeholder='Enter server name'
+                                                /* placeholder='Enter server name' */
+                                                placeholder='Введите имя сервера'
                                                 {...field}
                                             />
                                         </FormControl>
@@ -132,7 +133,7 @@ export const InitialModal = () => {
 
                         <DialogFooter className='bg-gray-100 px-6 py-4'>
                             <Button variant='primary' disabled={isLoading}>
-                                Create
+                                Создать{/* Create */}
                             </Button>
                         </DialogFooter>
                     </form>
